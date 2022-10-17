@@ -5,7 +5,9 @@
  * Description: prints combinations of two-digit numbers
  * Return: 0
 */
+
 int main(void)
+
 {
 	int c, i, k, j;
 
@@ -17,10 +19,9 @@ int main(void)
 			{
 				for (j = 48; j <= 57; j++)
 				{
-				if (((k + j) > (c + i) &&  k >= c) || c < k)
+					if (((k + j) > (c + i) &&  k >= c) || c < k)
 				{
-
-				putchar(c);
+					putchar(c);
 					putchar(i);
 					putchar(' ');
 					putchar(k);
@@ -40,7 +41,7 @@ int main(void)
 			}
 		}
 	}
-}
 	putchar('\n');
+
 	return (0);
 }
