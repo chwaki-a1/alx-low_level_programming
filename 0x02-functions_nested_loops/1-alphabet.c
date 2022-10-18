@@ -3,16 +3,11 @@
 
 
 /**
-
- * print_alphabet - prints alphabets
-
- *
-
- * Return: always 0;
-
- *
-
- */
+* print_alphabet - prints alphabets
+* 
+* Return: always 0;
+*
+*/
 
 
 

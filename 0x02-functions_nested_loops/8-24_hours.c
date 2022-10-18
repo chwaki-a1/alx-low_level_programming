@@ -3,17 +3,13 @@
 
 
 /**
-
- * jack_bauer - main theme song :)
-
- *
-
- */
+* jack_bauer - main theme song :)
+*
+*/
 
 
 
 void jack_bauer(void)
-
 {
 
 	int i;

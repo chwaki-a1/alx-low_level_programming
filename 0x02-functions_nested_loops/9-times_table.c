@@ -3,17 +3,13 @@
 
 
 /**
-
- * times_table - times table functions for use
-
- *
-
- */
+* times_table - times table functions for use
+*
+*/
 
 
 
 void times_table(void)
-
 {
 
 	int i;
