@@ -1,0 +1,1 @@
+Now doing static files
