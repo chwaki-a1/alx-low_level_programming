@@ -1,0 +1,1 @@
+memmory allocation it is
