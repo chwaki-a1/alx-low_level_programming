@@ -8,10 +8,10 @@
  * Return: address of the head.
  */
 
+
+
 list_t *add_node(list_t **head, const char *str)
-
 {
-
 	list_t *new;
 	size_t nchar;
 
@@ -22,6 +22,7 @@ list_t *add_node(list_t **head, const char *str)
 	new->str = strdup(str);
 
 	for (nchar = 0; str[nchar]; nchar++)
+		;
 
 	new->len = nchar;
 	new->next = *head;
