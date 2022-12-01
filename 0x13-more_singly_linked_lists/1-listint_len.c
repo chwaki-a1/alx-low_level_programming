@@ -10,10 +10,12 @@ size_t listint_len(const listint_t *h)
 {
 	size_t nodenum = 0;
 
-	while (h)
+	while (h != NULL)
 	{
-		nodenum++;
+		printf("%d\n", h->n);
 		h = h->next;
+		nodenum++;
+		
 	}
 	return (nodenum);
 }
